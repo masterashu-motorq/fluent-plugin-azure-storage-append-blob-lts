@@ -41,7 +41,7 @@ module Fluent
       config_param :azure_cloud, :string, default: 'AZUREPUBLICCLOUD'
       config_param :azure_msi_client_id, :string, default: nil
       config_param :azure_container, :string, default: nil
-      config_param :azure_imds_api_version, :string, default: '2019-08-15'
+      config_param :azure_imds_api_version, :string, default: '2020-12-01'
       config_param :azure_token_refresh_interval, :integer, default: 60
       config_param :azure_object_key_format, :string, default: '%{path}%{time_slice}-%{index}.log'
       config_param :auto_create_container, :bool, default: true

@@ -79,11 +79,11 @@ If all are empty, the plugin will use the local Managed Identity endpoint to obt
 
 ### `azure_imds_api_version` (Optional, only for MSI)
 
-Default: `2019-08-15`
+Default: `2020-12-01`
 
 The Instance Metadata Service is used during the OAuth flow to obtain an access token. This API is versioned and specifying the version is mandatory.
 
-See [here](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/instance-metadata-service#versioning) for more details.
+See [here](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/instance-metadata-service?tabs=windows#versioning) for more details.
 
 ### `azure_token_refresh_interval` (Optional, only for MSI)
 

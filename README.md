@@ -49,6 +49,7 @@ And then execute:
         @type file
         path /var/log/fluent/azurestorageappendblob
         timekey 120 # 2 minutes
+        chunk_limit_size 3m # Azure Blob Apppend Operation supports maximum 4MiB Append Blob
         timekey_wait 60
         timekey_use_utc true # use utc
       </buffer>
